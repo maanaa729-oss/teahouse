@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8">
+    <title>Teahouse</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/destyle.css@3.0.2/destyle.css">
+    <link rel="stylesheet" href="./CSS/menu.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"
+        integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="./JS/menu.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="flex">
+                <a href="./index.html" class="logo"><img src="./image/logo.png"></a>
+                <div class="list">
+                    <ul class="flex pc">
+                        <li><a href="./index.html">TOP</a></li>
+                        <li><a href="./index.html/#menu">MENU</a></li>
+                        <li><a href="./index.html/#about">ABOUT</a></li>
+                    </ul>
+                </div>
+                <input type="checkbox" id="check">
+                <label for="check" class="btn"><span></span></label>
+                <div class="list sm">
+                    <ul class="sm">
+                        <li><a href="./index.html">TOP</a></li>
+                        <li><a href="./index.html/#menu">MENU</a></li>
+                        <li><a href="./index.html/#about">ABOUT</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <main>
+        <section class="tea">
+            <div class="container">
+                <h1 class="title"><span class="big">T</span>EA</h1>
+                <div class="one">
+                    <div class="subtitle bold">中国</div>
+                    <div class="flex">
+                        <div class="item">
+                            <img src="./image/tea2.webp">
+                            <h3 class="mini">２.　碧螺春（ビローチュン）</h3>
+                        </div>
+                        <div class="item">
+                            <img src="./image/tea4.jpg">
+                            <h3 class="mini">４.　青茶（チンチャ）</h3>
+                        </div>
+                    </div>
+                    <div class="text"><span class="bold">１.　龍井茶（ロンジン）</span><br>
+                        中国浙江省・杭州を代表する名茶で、清明節前の早摘みは特に高級。茶葉を釜で押し付けるように炒る
+                        「平炒青」の製法で、扁平な形状が特徴。栗のような香ばしい香りと柔らかな甘みがあり、渋みは極めて控えめ。
+                    </div>
+                    <div class="text"><span class="bold">２.　碧螺春（ビローチュン）</span><br>
+                        江蘇省・太湖周辺の名茶。産地は桃や梨などの果樹園に囲まれており、茶葉が果樹の香りを吸うと言われる。ぐるりと巻いた螺旋状の芽茶で、甘い花香と爽やかな余韻が人気。
+                    </div>
+                    <div class="text"><span class="bold">３.　普洱茶（プーアル茶）</span><br>
+                        雲南省で作られる後発酵茶。生（生茶）は青々しい風味で月日と共に熟成し、熟（熟茶）は発酵工程を人工的に進めた深いコクと円やかな甘みが特徴。
+                    </div>
+                    <div class="text"><span class="bold">４.　青茶（チンチャ）</span><br>
+                        半発酵茶で、発酵した茶褐色の葉と不発酵の緑色の葉により、青っぽく見える。 茶葉をしっかり発酵させ、しっかりとした味わいが、台湾産はやわらかな味わいが楽しめます。
+                    </div>
+                </div>
+                <div class="one">
+                    <div class="subtitle bold">日本</div>
+                    <div class="flex">
+                        <div class="item">
+                            <img src="./image/tea5.jpg">
+                            <h3 class="mini">５.　煎茶</h3>
+                        </div>
+                        <div class="item">
+                            <img src="./image/tea6.jpg">
+                            <h3 class="mini">６.　抹茶</h3>
+                        </div>
+                    </div>
+                    <div class="text"><span class="bold">５.　煎茶</span><br>
+                        日本で最も一般的に飲まれる緑茶。蒸して酸化を止めることで鮮緑色の葉と爽やかな旨味を保持。
+                        産地や蒸し時間によって香りや味が変わり、日常にも客人のおもてなしにも使われる万能茶。
+                    </div>
+                    <div class="text"><span class="bold">６.　抹茶</span><br>
+                        石臼で丁寧に挽いた微粉末の緑茶。玉露と同様に覆下栽培で育てるため旨味成分（テアニン）が多い。
+                        茶道で点てて飲むほか、スイーツ・料理にも幅広く利用される。
+                    </div>
+                    <div class="text"><span class="bold">７.　ほうじ茶</span><br>
+                        中国浙江省・杭州を代表する名茶で、清明節前の早摘みは特に高級。茶葉を釜で押し付けるように炒る
+                        「平炒青」の製法で、扁平な形状が特徴。栗のような香ばしい香りと柔らかな甘みがあり、渋みは極めて控えめ。
+                    </div>
+                    <div class="text"><span class="bold">８.　玄米茶</span><br>
+                        煎茶に炒った玄米を加えた香り豊かなお茶。軽やかな味で和食にもよく合い、二番煎じでも美味しい。香ばしい玄米の香りが特徴。
+                    </div>
+                </div>
+                <div class="one">
+                    <div class="subtitle bold">台湾</div>
+                    <div class="flex">
+                        <div class="item">
+                            <img src="./image/tea10.jpg">
+                            <h3 class="mini">１０.　高山茶</h3>
+                        </div>
+                    </div>
+                    <div class="text"><span class="bold">９.　東方美人茶</span><br>
+                        蜜のような甘い香りで知られる台湾の名茶。茶葉がウンカ（小さな虫）に噛まれることで生まれる独特の甘さが特徴。発酵度が高く、紅茶に近い深い味わい。
+                    </div>
+                    <div class="text"><span class="bold">１０.　高山茶</span><br>
+                        標高1,000〜2,000mの高冷地で栽培される烏龍茶。低温・霧が多いため柔らかい葉となり、香りは清涼で透明感があり口当たりもまろやか。台湾烏龍を代表する上質茶。
+                    </div>
+                </div>
+                <div class="one">
+                    <div class="subtitle bold">インド</div>
+                    <div class="flex">
+                        <div class="item">
+                            <img src="./image/tea11.jpg">
+                            <h3 class="mini">１１.　アッサム</h3>
+                        </div>
+                        <div class="item">
+                            <img src="./image/tea12.jpg">
+                            <h3 class="mini">１２.　ダージリン</h3>
+                        </div>
+                    </div>
+                    <div class="text"><span class="bold">１１.　アッサム</span><br>
+                        ブラーマプトラ川流域で生育するアッサム種の紅茶。濃厚なコクと深い赤褐色が特徴で、ミルクティーに非常に合う。英国式紅茶のブレンドにもよく使用される。
+                    </div>
+                    <div class="text"><span class="bold">１２.　ダージリン</span><br>
+                        ヒマラヤ山麓で栽培される高級紅茶。特に春の新茶「ファーストフラッシュ」は爽やかな花の香り、夏の「セカンドフラッシュ」はマスカテルフレーバーという独特の甘い香りが楽しめる。
+                        <div class="one">
+                            <div class="subtitle bold">ヨーロッパ</div>
+                            <div class="flex">
+                                <div class="item">
+                                    <img src="./image/tea13.jpg">
+                                    <h3 class="mini">１３.　アールグレイ</h3>
+                                </div>
+                            </div>
+                            <div class="text"><span class="bold">１３.　アールグレイ</span><br>
+
+                                ベルガモットという柑橘の香りをつけたフレーバーティー。華やかで上品な香りが人気で、ストレート・ミルク・レモンどれでも楽しめる。
+                            </div>
+                            <div class="text"><span class="bold">１４.　イングリッシュブレックファスト</span><br>
+                                しっかりとした味とコクがあり、ミルクを入れても負けない強いブレンド。朝食の定番として英国で広く定着。
+                            </div>
+                        </div>
+                    </div>
+        </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <section class="dessert">
+            <div class="container">
+                <h2 class="title"><span class="big">D</span>ESSERT</h2>
+                <div class="scroll flex">
+                    <div class="item">
+                        <img src="./image/dessert1.jpg">
+                        <h3 class="mini">１.　羊羹（ようかん）</h3>
+                    </div>
+                    <div class="item">
+                        <img src="./image/dessert2.jpg">
+                        <h3 class="mini">２.　どら焼き</h3>
+                    </div>
+                    <div class="item">
+                        <img src="./image/dessert3.jpg">
+                        <h3 class="mini">３.　抹茶クッキー</h3>
+                    </div>
+                    <div class="item">
+                        <img src="./image/dessert4.jpg">
+                        <h3 class="mini">４.　フルーツタルト</h3>
+                    </div>
+                </div>
+                <div class="one">
+                    <div class="text"><span class="bold">１.　羊羹（ようかん）</span><br>
+                        合うお茶：煎茶・抹茶・普洱茶<br>
+                        羊羹のしっかりした甘さは、渋み・旨味の強い緑茶とベストマッチ。また、重厚な甘味は 普洱茶の熟成香とも相性が良く、後味をスッキリさせてくれます。
+                    </div>
+                    <div class="text"><span class="bold">２.　どら焼き</span><br>
+                        合うお茶：ほうじ茶・青茶・アッサム紅茶<br>
+                        どら焼きの焼き皮の香ばしさと餡の甘味が、香ばしいほうじ茶と相性抜群。アッサムのようなコクのある紅茶にもよく合う。
+                    </div>
+                    <div class="text"><span class="bold">３.　抹茶クッキー</span><br>
+                        合うお茶：煎茶・碧螺春<br>
+                        甘さ控えめでバター香があるため、爽やかな緑茶や華やかな香りのジャスミン茶と好相性。
+                    </div>
+                    <div class="text"><span class="bold">４.　フルーツタルト</span><br>
+                        合うお茶：高山茶<br>
+                       高山茶の花や蜜のような香りが、フルーツの酸味と合わさると、爽やかで上品な香りの余韻が伸びる。味が重過ぎず、茶の香りを邪魔しない。
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+
+
+    <footer>
+        <div class="container">
+            <ul>
+                <li><a href="./index.html">TOP</a></li>
+                <li><a href="./index.html/#menu">MENU</a></li>
+                <li><a href="./index.html/#about">ABOUT</a></li>
+                <li><a href="#">お問い合わせ</a></li>
+                <li><a href="#">プライバシーポリシー</a></li>
+            </ul>
+            <p class="min">© 2025 Miyata Mana</p>
+        </div>
+    </footer>
+</body>
+
+</html>
